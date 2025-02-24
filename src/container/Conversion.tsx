@@ -17,7 +17,7 @@ function Conversion() {
         }
     )
 
-    async function getConversion(prevState: unknown, formData: FormData) {
+    async function getConversion(_prevState: unknown, formData: FormData) {
         const from = formData.get("fromCurrency")
         const to = formData.get("toCurrency");
 
