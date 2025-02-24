@@ -1,0 +1,23 @@
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative
+}
+
+.suspenseFallback,
+.errorFallBack {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+
+@media (min-width: 1440px) {
+    .suspenseFallback,
+    .errorFallBack {
+        font-size: 5em;
+    }
+
+}
